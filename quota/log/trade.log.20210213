@@ -1,0 +1,499 @@
+[16:04:59.755.670][41205][INFO][XTP:0][init_log_file]:End: /workspaces/bt_test/quota/log/trade.log, api version : 1.1.18.13
+[16:04:59.759.293][41205][INFO][XTP:0]Begin to init trader api.
+[16:04:59.760.226][41205][INFO][XTP:0]Begin to register service function.
+[16:04:59.761.462][41205][DEBUG][XTP:0]register service function ok(3102).
+[16:04:59.762.713][41205][DEBUG][XTP:0]register service function ok(3110).
+[16:04:59.763.665][41205][DEBUG][XTP:0]register service function ok(3114).
+[16:04:59.764.388][41205][DEBUG][XTP:0]register service function ok(3118).
+[16:04:59.765.000][41205][DEBUG][XTP:0]register service function ok(3142).
+[16:04:59.765.891][41205][DEBUG][XTP:0]register service function ok(3146).
+[16:04:59.766.692][41205][DEBUG][XTP:0]register service function ok(3108).
+[16:04:59.767.502][41205][DEBUG][XTP:0]register service function ok(3104).
+[16:04:59.768.097][41205][DEBUG][XTP:0]register service function ok(53).
+[16:04:59.768.887][41205][DEBUG][XTP:0]register service function ok(51).
+[16:04:59.769.719][41205][DEBUG][XTP:0]register service function ok(52).
+[16:04:59.770.582][41205][DEBUG][XTP:0]register service function ok(9).
+[16:04:59.771.710][41205][DEBUG][XTP:0]register service function ok(3132).
+[16:04:59.772.806][41205][DEBUG][XTP:0]register service function ok(3206).
+[16:04:59.773.632][41205][DEBUG][XTP:0]register service function ok(3128).
+[16:04:59.774.555][41205][DEBUG][XTP:0]register service function ok(3126).
+[16:04:59.775.567][41205][DEBUG][XTP:0]register service function ok(3136).
+[16:04:59.776.276][41205][DEBUG][XTP:0]register service function ok(3138).
+[16:04:59.777.077][41205][DEBUG][XTP:0]register service function ok(3148).
+[16:04:59.777.842][41205][DEBUG][XTP:0]register service function ok(3150).
+[16:04:59.778.600][41205][DEBUG][XTP:0]register service function ok(3153).
+[16:04:59.779.386][41205][INFO][XTP:0]End to register service function 1.
+[16:04:59.780.210][41205][TRACE][XTP:0]Begin to init trading day.
+[16:04:59.781.061][41205][TRACE][XTP:0]End to init trading day.
+[16:04:59.781.796][41205][DEBUG][XTP:0]Begin to init terminal info.
+[16:04:59.783.195][41205][DEBUG][XTP:0]End to init terminal info.
+[16:04:59.783.938][41205][TRACE][XTP:0]Begin to init error message.
+[16:04:59.784.494][41205][TRACE][XTP:0]End to init error message.
+[16:04:59.785.285][41205][DEBUG][XTP:0]Init order manager.
+[16:04:59.786.271][41205][DEBUG][XTP:0]order manager Initialize.
+[16:04:59.787.122][41205][TRACE][XTP:0]order timeout thread InitInstance.
+[16:04:59.813.463][41205][INFO][XTP:0]Init trader api success.
+[16:04:59.814.851][41205][TRACE][XTP:0]Begin to register spi.
+[16:04:59.815.611][41205][TRACE][XTP:0]Order manager register spi.
+[16:04:59.816.729][41205][TRACE][XTP:0]End to register spi.
+[16:04:59.818.785][41205][TRACE][XTP:0]Begin to login.
+[16:04:59.820.033][41205][INFO][XTP:0]Begin to login to oms server 120.27.164.69:6001.
+[16:04:59.832.718][41205][ERROR][XTP:10210000]53191002899 login to oms server 120.27.164.69:6001 failed.[xtp_trader_private_api.cpp:288][XTP:1]connect server failed.[xbase_login.cpp:31]
+[16:04:59.869.968][41205][TRACE][XTP:0]Begin to register spi.
+[16:04:59.871.535][41205][TRACE][XTP:0]Order manager register spi.
+[16:04:59.872.984][41205][TRACE][XTP:0]End to register spi.
+[16:04:59.874.311][41205][TRACE][XTP:0]Begin to release trader api.
+[16:04:59.875.139][41205][TRACE][XTP:0]Close file.
+[16:04:59.876.575][41205][TRACE][XTP:0]Destroy order manager
+[16:04:59.878.354][41205][DEBUG][XTP:0]order manager Destroy.
+[16:05:00.789.433][41215][TRACE][XTP:0]Begin to check timeout.
+[16:05:00.790.701][41215][TRACE][XTP:0]End to check timeout.
+[16:05:00.792.671][41215][TRACE][XTP:0]order timeout thread ExitInstance.
+[16:05:00.794.828][41205][TRACE][XTP:0]xtp id manager destroy.
+[16:05:00.805.039][41205][TRACE][XTP:0]api service destroy.
+[16:06:10.945.445][41416][INFO][XTP:0][init_log_file]:End: /workspaces/bt_test/quota/log/trade.log, api version : 1.1.18.13
+[16:06:10.947.166][41416][INFO][XTP:0]Begin to init trader api.
+[16:06:10.948.010][41416][INFO][XTP:0]Begin to register service function.
+[16:06:10.948.815][41416][DEBUG][XTP:0]register service function ok(3102).
+[16:06:10.949.623][41416][DEBUG][XTP:0]register service function ok(3110).
+[16:06:10.950.565][41416][DEBUG][XTP:0]register service function ok(3114).
+[16:06:10.951.289][41416][DEBUG][XTP:0]register service function ok(3118).
+[16:06:10.952.602][41416][DEBUG][XTP:0]register service function ok(3142).
+[16:06:10.958.923][41416][DEBUG][XTP:0]register service function ok(3146).
+[16:06:10.961.190][41416][DEBUG][XTP:0]register service function ok(3108).
+[16:06:10.965.559][41416][DEBUG][XTP:0]register service function ok(3104).
+[16:06:10.966.242][41416][DEBUG][XTP:0]register service function ok(53).
+[16:06:10.967.430][41416][DEBUG][XTP:0]register service function ok(51).
+[16:06:10.969.120][41416][DEBUG][XTP:0]register service function ok(52).
+[16:06:10.969.895][41416][DEBUG][XTP:0]register service function ok(9).
+[16:06:10.974.941][41416][DEBUG][XTP:0]register service function ok(3132).
+[16:06:10.975.784][41416][DEBUG][XTP:0]register service function ok(3206).
+[16:06:10.977.160][41416][DEBUG][XTP:0]register service function ok(3128).
+[16:06:10.978.125][41416][DEBUG][XTP:0]register service function ok(3126).
+[16:06:10.978.939][41416][DEBUG][XTP:0]register service function ok(3136).
+[16:06:10.979.997][41416][DEBUG][XTP:0]register service function ok(3138).
+[16:06:10.980.956][41416][DEBUG][XTP:0]register service function ok(3148).
+[16:06:10.982.114][41416][DEBUG][XTP:0]register service function ok(3150).
+[16:06:10.982.871][41416][DEBUG][XTP:0]register service function ok(3153).
+[16:06:10.983.748][41416][INFO][XTP:0]End to register service function 1.
+[16:06:10.984.596][41416][TRACE][XTP:0]Begin to init trading day.
+[16:06:10.985.581][41416][TRACE][XTP:0]End to init trading day.
+[16:06:10.986.533][41416][DEBUG][XTP:0]Begin to init terminal info.
+[16:06:10.987.815][41416][DEBUG][XTP:0]End to init terminal info.
+[16:06:10.988.745][41416][TRACE][XTP:0]Begin to init error message.
+[16:06:10.989.596][41416][TRACE][XTP:0]End to init error message.
+[16:06:10.990.568][41416][DEBUG][XTP:0]Init order manager.
+[16:06:10.991.656][41416][DEBUG][XTP:0]order manager Initialize.
+[16:06:10.993.079][41416][TRACE][XTP:0]order timeout thread InitInstance.
+[16:06:11.021.330][41416][INFO][XTP:0]Init trader api success.
+[16:06:11.022.632][41416][TRACE][XTP:0]Begin to register spi.
+[16:06:11.023.953][41416][TRACE][XTP:0]Order manager register spi.
+[16:06:11.024.979][41416][TRACE][XTP:0]End to register spi.
+[16:06:11.026.032][41416][TRACE][XTP:0]Begin to login.
+[16:06:11.026.979][41416][INFO][XTP:0]Begin to login to oms server 120.27.164.69:6001.
+[16:06:11.043.234][41416][ERROR][XTP:10210000]53191002899 login to oms server 120.27.164.69:6001 failed.[xtp_trader_private_api.cpp:288][XTP:1]connect server failed.[xbase_login.cpp:31]
+[16:06:11.044.836][41416][TRACE][XTP:0]Begin to logout oms.
+[16:06:11.046.637][41416][INFO][XTP:0]Begin to logout oms server.
+[16:06:11.047.827][41416][TRACE][XTP:0]logout available session id 1.
+[16:06:11.048.808][41416][INFO][XTP:0]End to logout oms server success.
+[16:06:11.049.493][41416][TRACE][XTP:0]Begin to register spi.
+[16:06:11.051.175][41416][TRACE][XTP:0]Order manager register spi.
+[16:06:11.052.306][41416][TRACE][XTP:0]End to register spi.
+[16:06:11.053.594][41416][TRACE][XTP:0]Begin to release trader api.
+[16:06:11.055.319][41416][TRACE][XTP:0]Close file.
+[16:06:11.059.239][41416][TRACE][XTP:0]Destroy order manager
+[16:06:11.060.843][41416][DEBUG][XTP:0]order manager Destroy.
+[16:06:11.995.023][41423][TRACE][XTP:0]Begin to check timeout.
+[16:06:11.996.953][41423][TRACE][XTP:0]End to check timeout.
+[16:06:11.998.692][41423][TRACE][XTP:0]order timeout thread ExitInstance.
+[16:06:12.000.416][41416][TRACE][XTP:0]xtp id manager destroy.
+[16:06:12.009.596][41416][TRACE][XTP:0]api service destroy.
+[16:06:23.014.607][41474][INFO][XTP:0][init_log_file]:End: /workspaces/bt_test/quota/log/trade.log, api version : 1.1.18.13
+[16:06:23.016.685][41474][INFO][XTP:0]Begin to init trader api.
+[16:06:23.017.644][41474][INFO][XTP:0]Begin to register service function.
+[16:06:23.018.666][41474][DEBUG][XTP:0]register service function ok(3102).
+[16:06:23.019.859][41474][DEBUG][XTP:0]register service function ok(3110).
+[16:06:23.020.854][41474][DEBUG][XTP:0]register service function ok(3114).
+[16:06:23.023.006][41474][DEBUG][XTP:0]register service function ok(3118).
+[16:06:23.023.993][41474][DEBUG][XTP:0]register service function ok(3142).
+[16:06:23.024.923][41474][DEBUG][XTP:0]register service function ok(3146).
+[16:06:23.026.034][41474][DEBUG][XTP:0]register service function ok(3108).
+[16:06:23.027.156][41474][DEBUG][XTP:0]register service function ok(3104).
+[16:06:23.028.166][41474][DEBUG][XTP:0]register service function ok(53).
+[16:06:23.029.435][41474][DEBUG][XTP:0]register service function ok(51).
+[16:06:23.014.803][41480][TRACE][XTP:0]api aux thread start ...
+[16:06:23.030.405][41474][DEBUG][XTP:0]register service function ok(52).
+[16:06:23.032.370][41474][DEBUG][XTP:0]register service function ok(9).
+[16:06:23.033.417][41474][DEBUG][XTP:0]register service function ok(3132).
+[16:06:23.034.355][41474][DEBUG][XTP:0]register service function ok(3206).
+[16:06:23.035.305][41474][DEBUG][XTP:0]register service function ok(3128).
+[16:06:23.036.165][41474][DEBUG][XTP:0]register service function ok(3126).
+[16:06:23.037.216][41474][DEBUG][XTP:0]register service function ok(3136).
+[16:06:23.038.060][41474][DEBUG][XTP:0]register service function ok(3138).
+[16:06:23.039.043][41474][DEBUG][XTP:0]register service function ok(3148).
+[16:06:23.039.820][41474][DEBUG][XTP:0]register service function ok(3150).
+[16:06:23.040.736][41474][DEBUG][XTP:0]register service function ok(3153).
+[16:06:23.041.555][41474][INFO][XTP:0]End to register service function 1.
+[16:06:23.042.626][41474][TRACE][XTP:0]Begin to init trading day.
+[16:06:23.043.400][41474][TRACE][XTP:0]End to init trading day.
+[16:06:23.044.080][41474][DEBUG][XTP:0]Begin to init terminal info.
+[16:06:23.045.166][41474][DEBUG][XTP:0]End to init terminal info.
+[16:06:23.045.900][41474][TRACE][XTP:0]Begin to init error message.
+[16:06:23.046.645][41474][TRACE][XTP:0]End to init error message.
+[16:06:23.047.358][41474][DEBUG][XTP:0]Init order manager.
+[16:06:23.048.147][41474][DEBUG][XTP:0]order manager Initialize.
+[16:06:23.048.922][41474][TRACE][XTP:0]order timeout thread InitInstance.
+[16:06:23.076.860][41474][INFO][XTP:0]Init trader api success.
+[16:06:23.078.717][41474][TRACE][XTP:0]Begin to register spi.
+[16:06:23.079.741][41474][TRACE][XTP:0]Order manager register spi.
+[16:06:23.080.704][41474][TRACE][XTP:0]End to register spi.
+[16:06:23.081.618][41474][TRACE][XTP:0]Begin to login.
+[16:06:23.082.370][41474][INFO][XTP:0]Begin to login to oms server 120.27.164.69:6001.
+[16:06:23.094.235][41474][ERROR][XTP:10210000]53191002899 login to oms server 120.27.164.69:6001 failed.[xtp_trader_private_api.cpp:288][XTP:1]connect server failed.[xbase_login.cpp:31]
+[16:06:23.095.213][41474][TRACE][XTP:0]Begin to logout oms.
+[16:06:23.095.996][41474][INFO][XTP:0]Begin to logout oms server.
+[16:06:23.097.053][41474][TRACE][XTP:0]logout available session id 1.
+[16:06:23.097.947][41474][INFO][XTP:0]End to logout oms server success.
+[16:06:23.098.663][41474][TRACE][XTP:0]Begin to register spi.
+[16:06:23.099.453][41474][TRACE][XTP:0]Order manager register spi.
+[16:06:23.100.177][41474][TRACE][XTP:0]End to register spi.
+[16:06:23.101.075][41474][TRACE][XTP:0]Begin to release trader api.
+[16:06:23.102.411][41474][TRACE][XTP:0]Close file.
+[16:06:23.103.491][41474][TRACE][XTP:0]Destroy order manager
+[16:06:23.104.228][41474][DEBUG][XTP:0]order manager Destroy.
+[16:06:24.052.214][41481][TRACE][XTP:0]Begin to check timeout.
+[16:06:24.054.709][41481][TRACE][XTP:0]End to check timeout.
+[16:06:24.056.323][41481][TRACE][XTP:0]order timeout thread ExitInstance.
+[16:06:24.058.653][41474][TRACE][XTP:0]xtp id manager destroy.
+[16:06:24.068.028][41474][TRACE][XTP:0]api service destroy.
+[16:07:13.012.066][41635][INFO][XTP:0][init_log_file]:End: /workspaces/bt_test/quota/log/trade.log, api version : 1.1.18.13
+[16:07:13.014.331][41635][INFO][XTP:0]Begin to init trader api.
+[16:07:13.015.403][41635][INFO][XTP:0]Begin to register service function.
+[16:07:13.016.676][41635][DEBUG][XTP:0]register service function ok(3102).
+[16:07:13.017.306][41635][DEBUG][XTP:0]register service function ok(3110).
+[16:07:13.018.080][41635][DEBUG][XTP:0]register service function ok(3114).
+[16:07:13.018.852][41635][DEBUG][XTP:0]register service function ok(3118).
+[16:07:13.019.825][41635][DEBUG][XTP:0]register service function ok(3142).
+[16:07:13.020.712][41635][DEBUG][XTP:0]register service function ok(3146).
+[16:07:13.021.459][41635][DEBUG][XTP:0]register service function ok(3108).
+[16:07:13.022.343][41635][DEBUG][XTP:0]register service function ok(3104).
+[16:07:13.023.364][41635][DEBUG][XTP:0]register service function ok(53).
+[16:07:13.024.315][41635][DEBUG][XTP:0]register service function ok(51).
+[16:07:13.026.327][41635][DEBUG][XTP:0]register service function ok(52).
+[16:07:13.031.786][41635][DEBUG][XTP:0]register service function ok(9).
+[16:07:13.034.877][41635][DEBUG][XTP:0]register service function ok(3132).
+[16:07:13.035.932][41635][DEBUG][XTP:0]register service function ok(3206).
+[16:07:13.036.922][41635][DEBUG][XTP:0]register service function ok(3128).
+[16:07:13.040.489][41635][DEBUG][XTP:0]register service function ok(3126).
+[16:07:13.041.778][41635][DEBUG][XTP:0]register service function ok(3136).
+[16:07:13.042.756][41635][DEBUG][XTP:0]register service function ok(3138).
+[16:07:13.044.062][41635][DEBUG][XTP:0]register service function ok(3148).
+[16:07:13.045.337][41635][DEBUG][XTP:0]register service function ok(3150).
+[16:07:13.046.171][41635][DEBUG][XTP:0]register service function ok(3153).
+[16:07:13.047.561][41635][INFO][XTP:0]End to register service function 1.
+[16:07:13.048.417][41635][TRACE][XTP:0]Begin to init trading day.
+[16:07:13.050.191][41635][TRACE][XTP:0]End to init trading day.
+[16:07:13.051.582][41635][DEBUG][XTP:0]Begin to init terminal info.
+[16:07:13.052.627][41635][DEBUG][XTP:0]End to init terminal info.
+[16:07:13.053.353][41635][TRACE][XTP:0]Begin to init error message.
+[16:07:13.054.507][41635][TRACE][XTP:0]End to init error message.
+[16:07:13.055.447][41635][DEBUG][XTP:0]Init order manager.
+[16:07:13.056.315][41635][DEBUG][XTP:0]order manager Initialize.
+[16:07:13.057.136][41635][TRACE][XTP:0]order timeout thread InitInstance.
+[16:07:13.090.473][41635][INFO][XTP:0]Init trader api success.
+[16:07:13.091.651][41635][TRACE][XTP:0]Begin to register spi.
+[16:07:13.092.274][41635][TRACE][XTP:0]Order manager register spi.
+[16:07:13.093.261][41635][TRACE][XTP:0]End to register spi.
+[16:07:13.094.185][41635][TRACE][XTP:0]Begin to login.
+[16:07:13.095.050][41635][INFO][XTP:0]Begin to login to oms server 120.27.164.69:6001.
+[16:07:13.110.502][41635][ERROR][XTP:10210000]53191002899 login to oms server 120.27.164.69:6001 failed.[xtp_trader_private_api.cpp:288][XTP:1]connect server failed.[xbase_login.cpp:31]
+[16:07:13.148.532][41635][TRACE][XTP:0]Begin to register spi.
+[16:07:13.149.787][41635][TRACE][XTP:0]Order manager register spi.
+[16:07:13.150.889][41635][TRACE][XTP:0]End to register spi.
+[16:07:13.152.301][41635][TRACE][XTP:0]Begin to release trader api.
+[16:07:13.153.681][41635][TRACE][XTP:0]Close file.
+[16:07:13.154.845][41635][TRACE][XTP:0]Destroy order manager
+[16:07:13.156.663][41635][DEBUG][XTP:0]order manager Destroy.
+[16:07:14.064.259][41643][TRACE][XTP:0]Begin to check timeout.
+[16:07:14.066.746][41643][TRACE][XTP:0]End to check timeout.
+[16:07:14.069.481][41643][TRACE][XTP:0]order timeout thread ExitInstance.
+[16:07:14.072.146][41635][TRACE][XTP:0]xtp id manager destroy.
+[16:07:14.080.901][41635][TRACE][XTP:0]api service destroy.
+[16:40:00.781.777][46470][INFO][XTP:0][init_log_file]:End: /workspaces/bt_test/quota/log/trade.log, api version : 1.1.18.13
+[16:40:00.783.917][46470][INFO][XTP:0]Begin to init trader api.
+[16:40:00.784.899][46470][INFO][XTP:0]Begin to register service function.
+[16:40:00.786.425][46470][DEBUG][XTP:0]register service function ok(3102).
+[16:40:00.787.396][46470][DEBUG][XTP:0]register service function ok(3110).
+[16:40:00.788.623][46470][DEBUG][XTP:0]register service function ok(3114).
+[16:40:00.789.603][46470][DEBUG][XTP:0]register service function ok(3118).
+[16:40:00.793.101][46470][DEBUG][XTP:0]register service function ok(3142).
+[16:40:00.794.379][46470][DEBUG][XTP:0]register service function ok(3146).
+[16:40:00.795.505][46470][DEBUG][XTP:0]register service function ok(3108).
+[16:40:00.796.861][46470][DEBUG][XTP:0]register service function ok(3104).
+[16:40:00.798.113][46470][DEBUG][XTP:0]register service function ok(53).
+[16:40:00.799.004][46470][DEBUG][XTP:0]register service function ok(51).
+[16:40:00.799.746][46470][DEBUG][XTP:0]register service function ok(52).
+[16:40:00.800.689][46470][DEBUG][XTP:0]register service function ok(9).
+[16:40:00.801.657][46470][DEBUG][XTP:0]register service function ok(3132).
+[16:40:00.802.446][46470][DEBUG][XTP:0]register service function ok(3206).
+[16:40:00.803.642][46470][DEBUG][XTP:0]register service function ok(3128).
+[16:40:00.804.741][46470][DEBUG][XTP:0]register service function ok(3126).
+[16:40:00.806.094][46470][DEBUG][XTP:0]register service function ok(3136).
+[16:40:00.807.329][46470][DEBUG][XTP:0]register service function ok(3138).
+[16:40:00.808.802][46470][DEBUG][XTP:0]register service function ok(3148).
+[16:40:00.809.750][46470][DEBUG][XTP:0]register service function ok(3150).
+[16:40:00.810.655][46470][DEBUG][XTP:0]register service function ok(3153).
+[16:40:00.811.617][46470][INFO][XTP:0]End to register service function 1.
+[16:40:00.812.661][46470][TRACE][XTP:0]Begin to init trading day.
+[16:40:00.813.631][46470][TRACE][XTP:0]End to init trading day.
+[16:40:00.814.455][46470][DEBUG][XTP:0]Begin to init terminal info.
+[16:40:00.815.653][46470][DEBUG][XTP:0]End to init terminal info.
+[16:40:00.817.056][46470][TRACE][XTP:0]Begin to init error message.
+[16:40:00.818.142][46470][TRACE][XTP:0]End to init error message.
+[16:40:00.819.110][46470][DEBUG][XTP:0]Init order manager.
+[16:40:00.820.284][46470][DEBUG][XTP:0]order manager Initialize.
+[16:40:00.821.407][46470][TRACE][XTP:0]order timeout thread InitInstance.
+[16:40:00.857.108][46470][INFO][XTP:0]Init trader api success.
+[16:40:00.858.359][46470][TRACE][XTP:0]Begin to register spi.
+[16:40:00.859.090][46470][TRACE][XTP:0]Order manager register spi.
+[16:40:00.860.137][46470][TRACE][XTP:0]End to register spi.
+[16:40:00.861.726][46470][TRACE][XTP:0]Begin to login.
+[16:40:00.862.486][46470][INFO][XTP:0]Begin to login to oms server 120.27.164.69:6001.
+[16:40:00.993.135][46470][DEBUG][XTP:0]Connect from oms server.
+[16:40:00.994.422][46470][DEBUG][XTP:0]ip is 172.17.0.2.
+[16:40:00.995.548][46470][TRACE][XTP:0]Find account 53191002899 connect count.
+[16:40:00.996.574][46470][DEBUG][XTP:0]Can't find account 53191002899 connect count.
+[16:40:01.004.672][46470][TRACE][XTP:0]Begin to get max ref.
+[16:40:01.138.545][46470][TRACE][XTP:0]Receive login Begin.
+[16:40:01.139.691][46470][DEBUG][XTP:0]Receive login info from oms server.
+[16:40:01.140.531][46470][DEBUG][XTP:0]Begin to receive push sequence from oms.
+[16:40:01.141.339][46470][DEBUG][XTP:0]End to receive push sequence 0 from oms.
+[16:40:01.142.444][46470][INFO][XTP:0]The server version is 1.19.33.3-bugfi, start time is 20210214001621635, type is 3
+[16:40:01.143.385][46470][INFO][XTP:0]User reference is 0
+[16:40:01.144.615][46470][DEBUG][XTP:0]Can't find account 4615 connect count.
+[16:40:01.145.745][46470][INFO][XTP:0]Begin to set trading day 20210214.
+[16:40:01.146.987][46470][INFO][XTP:0]End set trading day 20210214
+[16:40:01.147.793][46470][DEBUG][XTP:0]4615 's xtp id base reference is 0.
+[16:40:01.148.855][46470][DEBUG][XTP:0]Update max push sequence 1.
+[16:40:01.149.989][46470][ERROR][XTP:10210000]53191002899 login to oms server 120.27.164.69:6001 failed.[xtp_trader_private_api.cpp:288][XTP:1]Login Failed,trade key invalid or not set,set assigned key first![OS:106]Transport endpoint is already connected[xbase_login.cpp:244]
+[16:40:01.151.086][46470][TRACE][XTP:0]Begin to get trading day .
+[16:40:01.152.372][46470][TRACE][XTP:0]Begin to logout oms.
+[16:40:01.153.516][46470][TRACE][XTP:0]Begin to register spi.
+[16:40:01.154.718][46470][TRACE][XTP:0]Order manager register spi.
+[16:40:01.156.417][46470][TRACE][XTP:0]End to register spi.
+[16:40:01.157.608][46470][TRACE][XTP:0]Begin to release trader api.
+[16:40:01.158.681][46470][TRACE][XTP:0]Close file.
+[16:40:01.165.148][46470][TRACE][XTP:0]Destroy order manager
+[16:40:01.166.637][46470][DEBUG][XTP:0]order manager Destroy.
+[16:40:01.824.365][46477][TRACE][XTP:0]Begin to check timeout.
+[16:40:01.825.813][46477][TRACE][XTP:0]End to check timeout.
+[16:40:01.826.620][46477][TRACE][XTP:0]order timeout thread ExitInstance.
+[16:40:01.828.095][46470][TRACE][XTP:0]xtp id manager destroy.
+[16:40:01.829.337][46470][TRACE][XTP:0]api service destroy.
+[16:40:49.974.540][46629][INFO][XTP:0][init_log_file]:End: /workspaces/bt_test/quota/log/trade.log, api version : 1.1.18.13
+[16:40:49.976.738][46629][INFO][XTP:0]Begin to init trader api.
+[16:40:49.977.799][46629][INFO][XTP:0]Begin to register service function.
+[16:40:49.978.974][46629][DEBUG][XTP:0]register service function ok(3102).
+[16:40:49.979.870][46629][DEBUG][XTP:0]register service function ok(3110).
+[16:40:49.980.764][46629][DEBUG][XTP:0]register service function ok(3114).
+[16:40:49.981.811][46629][DEBUG][XTP:0]register service function ok(3118).
+[16:40:49.982.768][46629][DEBUG][XTP:0]register service function ok(3142).
+[16:40:49.983.835][46629][DEBUG][XTP:0]register service function ok(3146).
+[16:40:49.984.635][46629][DEBUG][XTP:0]register service function ok(3108).
+[16:40:49.985.328][46629][DEBUG][XTP:0]register service function ok(3104).
+[16:40:49.986.090][46629][DEBUG][XTP:0]register service function ok(53).
+[16:40:49.986.935][46629][DEBUG][XTP:0]register service function ok(51).
+[16:40:49.988.237][46629][DEBUG][XTP:0]register service function ok(52).
+[16:40:50.010.608][46629][DEBUG][XTP:0]register service function ok(9).
+[16:40:50.011.622][46629][DEBUG][XTP:0]register service function ok(3132).
+[16:40:50.012.507][46629][DEBUG][XTP:0]register service function ok(3206).
+[16:40:50.013.583][46629][DEBUG][XTP:0]register service function ok(3128).
+[16:40:50.014.438][46629][DEBUG][XTP:0]register service function ok(3126).
+[16:40:50.015.441][46629][DEBUG][XTP:0]register service function ok(3136).
+[16:40:50.017.273][46629][DEBUG][XTP:0]register service function ok(3138).
+[16:40:50.018.756][46629][DEBUG][XTP:0]register service function ok(3148).
+[16:40:50.020.513][46629][DEBUG][XTP:0]register service function ok(3150).
+[16:40:50.021.882][46629][DEBUG][XTP:0]register service function ok(3153).
+[16:40:50.023.363][46629][INFO][XTP:0]End to register service function 1.
+[16:40:50.023.917][46629][TRACE][XTP:0]Begin to init trading day.
+[16:40:50.024.814][46629][TRACE][XTP:0]End to init trading day.
+[16:40:50.025.836][46629][DEBUG][XTP:0]Begin to init terminal info.
+[16:40:50.026.849][46629][DEBUG][XTP:0]End to init terminal info.
+[16:40:50.027.605][46629][TRACE][XTP:0]Begin to init error message.
+[16:40:50.028.493][46629][TRACE][XTP:0]End to init error message.
+[16:40:50.029.120][46629][DEBUG][XTP:0]Init order manager.
+[16:40:50.031.142][46629][DEBUG][XTP:0]order manager Initialize.
+[16:40:50.032.961][46629][TRACE][XTP:0]order timeout thread InitInstance.
+[16:40:50.070.626][46629][INFO][XTP:0]Init trader api success.
+[16:40:50.071.452][46629][TRACE][XTP:0]Begin to register spi.
+[16:40:50.072.606][46629][TRACE][XTP:0]Order manager register spi.
+[16:40:50.073.643][46629][TRACE][XTP:0]End to register spi.
+[16:40:50.074.743][46629][TRACE][XTP:0]Begin to login.
+[16:40:50.076.582][46629][INFO][XTP:0]Begin to login to oms server 120.27.164.69:6001.
+[16:40:50.217.227][46629][DEBUG][XTP:0]Connect from oms server.
+[16:40:50.218.429][46629][DEBUG][XTP:0]ip is 172.17.0.2.
+[16:40:50.219.397][46629][TRACE][XTP:0]Find account 53191002899 connect count.
+[16:40:50.220.343][46629][DEBUG][XTP:0]Can't find account 53191002899 connect count.
+[16:40:50.235.747][46629][TRACE][XTP:0]Begin to get max ref.
+[16:40:50.260.186][46629][TRACE][XTP:0]Receive login Begin.
+[16:40:50.261.009][46629][DEBUG][XTP:0]Receive login info from oms server.
+[16:40:50.262.265][46629][DEBUG][XTP:0]Begin to receive push sequence from oms.
+[16:40:50.265.554][46629][DEBUG][XTP:0]End to receive push sequence 0 from oms.
+[16:40:50.266.382][46629][INFO][XTP:0]The server version is 1.19.33.3-bugfi, start time is 20210214001621635, type is 3
+[16:40:50.267.149][46629][INFO][XTP:0]User reference is 0
+[16:40:50.268.210][46629][DEBUG][XTP:0]Can't find account 4615 connect count.
+[16:40:50.269.047][46629][INFO][XTP:0]Begin to set trading day 20210214.
+[16:40:50.270.543][46629][INFO][XTP:0]End set trading day 20210214
+[16:40:50.272.372][46629][DEBUG][XTP:0]4615 's xtp id base reference is 0.
+[16:40:50.273.409][46629][DEBUG][XTP:0]Update max push sequence 1.
+[16:40:50.275.651][46629][ERROR][XTP:10210000]53191002899 login to oms server 120.27.164.69:6001 failed.[xtp_trader_private_api.cpp:288][XTP:1]Login Failed,trade key invalid or not set,set assigned key first![OS:106]Transport endpoint is already connected[xbase_login.cpp:244]
+[16:40:50.360.666][46629][TRACE][XTP:0]Begin to register spi.
+[16:40:50.361.789][46629][TRACE][XTP:0]Order manager register spi.
+[16:40:50.362.596][46629][TRACE][XTP:0]End to register spi.
+[16:40:50.363.587][46629][TRACE][XTP:0]Begin to release trader api.
+[16:40:50.364.631][46629][TRACE][XTP:0]Close file.
+[16:40:50.365.594][46629][TRACE][XTP:0]Destroy order manager
+[16:40:50.366.239][46629][DEBUG][XTP:0]order manager Destroy.
+[16:40:51.035.749][46636][TRACE][XTP:0]Begin to check timeout.
+[16:40:51.037.204][46636][TRACE][XTP:0]End to check timeout.
+[16:40:51.038.626][46636][TRACE][XTP:0]order timeout thread ExitInstance.
+[16:40:51.039.878][46629][TRACE][XTP:0]xtp id manager destroy.
+[16:40:51.041.033][46629][TRACE][XTP:0]api service destroy.
+[16:41:33.205.921][46782][INFO][XTP:0][init_log_file]:End: /workspaces/bt_test/quota/log/trade.log, api version : 1.1.18.13
+[16:41:33.207.614][46782][INFO][XTP:0]Begin to init trader api.
+[16:41:33.208.492][46782][INFO][XTP:0]Begin to register service function.
+[16:41:33.209.414][46782][DEBUG][XTP:0]register service function ok(3102).
+[16:41:33.210.138][46782][DEBUG][XTP:0]register service function ok(3110).
+[16:41:33.210.919][46782][DEBUG][XTP:0]register service function ok(3114).
+[16:41:33.211.701][46782][DEBUG][XTP:0]register service function ok(3118).
+[16:41:33.212.746][46782][DEBUG][XTP:0]register service function ok(3142).
+[16:41:33.213.589][46782][DEBUG][XTP:0]register service function ok(3146).
+[16:41:33.214.539][46782][DEBUG][XTP:0]register service function ok(3108).
+[16:41:33.215.638][46782][DEBUG][XTP:0]register service function ok(3104).
+[16:41:33.216.607][46782][DEBUG][XTP:0]register service function ok(53).
+[16:41:33.217.303][46782][DEBUG][XTP:0]register service function ok(51).
+[16:41:33.217.877][46782][DEBUG][XTP:0]register service function ok(52).
+[16:41:33.218.639][46782][DEBUG][XTP:0]register service function ok(9).
+[16:41:33.219.467][46782][DEBUG][XTP:0]register service function ok(3132).
+[16:41:33.220.191][46782][DEBUG][XTP:0]register service function ok(3206).
+[16:41:33.221.190][46782][DEBUG][XTP:0]register service function ok(3128).
+[16:41:33.222.010][46782][DEBUG][XTP:0]register service function ok(3126).
+[16:41:33.223.062][46782][DEBUG][XTP:0]register service function ok(3136).
+[16:41:33.223.901][46782][DEBUG][XTP:0]register service function ok(3138).
+[16:41:33.225.059][46782][DEBUG][XTP:0]register service function ok(3148).
+[16:41:33.226.465][46782][DEBUG][XTP:0]register service function ok(3150).
+[16:41:33.228.174][46782][DEBUG][XTP:0]register service function ok(3153).
+[16:41:33.228.948][46782][INFO][XTP:0]End to register service function 1.
+[16:41:33.229.829][46782][TRACE][XTP:0]Begin to init trading day.
+[16:41:33.230.673][46782][TRACE][XTP:0]End to init trading day.
+[16:41:33.231.596][46782][DEBUG][XTP:0]Begin to init terminal info.
+[16:41:33.233.200][46782][DEBUG][XTP:0]End to init terminal info.
+[16:41:33.234.013][46782][TRACE][XTP:0]Begin to init error message.
+[16:41:33.234.825][46782][TRACE][XTP:0]End to init error message.
+[16:41:33.235.679][46782][DEBUG][XTP:0]Init order manager.
+[16:41:33.236.600][46782][DEBUG][XTP:0]order manager Initialize.
+[16:41:33.237.699][46782][TRACE][XTP:0]order timeout thread InitInstance.
+[16:41:33.264.308][46782][INFO][XTP:0]Init trader api success.
+[16:41:33.265.756][46782][TRACE][XTP:0]Begin to register spi.
+[16:41:33.266.687][46782][TRACE][XTP:0]Order manager register spi.
+[16:41:33.268.294][46782][TRACE][XTP:0]End to register spi.
+[16:41:33.269.527][46782][TRACE][XTP:0]Begin to login.
+[16:41:33.270.541][46782][INFO][XTP:0]Begin to login to oms server 120.27.164.69:6001.
+[16:41:33.412.537][46782][DEBUG][XTP:0]Connect from oms server.
+[16:41:33.414.388][46782][DEBUG][XTP:0]ip is 172.17.0.2.
+[16:41:33.416.657][46782][TRACE][XTP:0]Find account 53191002899 connect count.
+[16:41:33.418.803][46782][DEBUG][XTP:0]Can't find account 53191002899 connect count.
+[16:41:33.427.763][46782][TRACE][XTP:0]Begin to get max ref.
+[16:41:33.455.790][46782][TRACE][XTP:0]Receive login Begin.
+[16:41:33.456.843][46782][DEBUG][XTP:0]Receive login info from oms server.
+[16:41:33.458.197][46782][DEBUG][XTP:0]Begin to receive push sequence from oms.
+[16:41:33.459.304][46782][DEBUG][XTP:0]End to receive push sequence 0 from oms.
+[16:41:33.460.926][46782][INFO][XTP:0]The server version is 1.19.33.3-bugfi, start time is 20210214001621635, type is 3
+[16:41:33.461.878][46782][INFO][XTP:0]User reference is 0
+[16:41:33.462.912][46782][DEBUG][XTP:0]Can't find account 4615 connect count.
+[16:41:33.464.071][46782][INFO][XTP:0]Begin to set trading day 20210214.
+[16:41:33.464.934][46782][INFO][XTP:0]End set trading day 20210214
+[16:41:33.466.058][46782][DEBUG][XTP:0]4615 's xtp id base reference is 0.
+[16:41:33.466.812][46782][DEBUG][XTP:0]Update max push sequence 1.
+[16:41:33.468.476][46782][ERROR][XTP:10210000]53191002899 login to oms server 120.27.164.69:6001 failed.[xtp_trader_private_api.cpp:288][XTP:1]Login Failed,trade key invalid or not set,set assigned key first![OS:106]Transport endpoint is already connected[xbase_login.cpp:244]
+[16:41:33.512.178][46782][TRACE][XTP:0]Begin to register spi.
+[16:41:33.513.520][46782][TRACE][XTP:0]Order manager register spi.
+[16:41:33.514.203][46782][TRACE][XTP:0]End to register spi.
+[16:41:33.515.636][46782][TRACE][XTP:0]Begin to release trader api.
+[16:41:33.516.454][46782][TRACE][XTP:0]Close file.
+[16:41:33.517.252][46782][TRACE][XTP:0]Destroy order manager
+[16:41:33.517.960][46782][DEBUG][XTP:0]order manager Destroy.
+[16:41:34.242.711][46789][TRACE][XTP:0]Begin to check timeout.
+[16:41:34.244.396][46789][TRACE][XTP:0]End to check timeout.
+[16:41:34.246.771][46789][TRACE][XTP:0]order timeout thread ExitInstance.
+[16:41:34.248.959][46782][TRACE][XTP:0]xtp id manager destroy.
+[16:41:34.250.523][46782][TRACE][XTP:0]api service destroy.
+[16:43:31.468.165][47130][INFO][XTP:0][init_log_file]:End: /workspaces/bt_test/quota/log/trade.log, api version : 1.1.18.13
+[16:43:31.472.556][47130][INFO][XTP:0]Begin to init trader api.
+[16:43:31.473.751][47130][INFO][XTP:0]Begin to register service function.
+[16:43:31.474.966][47130][DEBUG][XTP:0]register service function ok(3102).
+[16:43:31.476.303][47130][DEBUG][XTP:0]register service function ok(3110).
+[16:43:31.477.300][47130][DEBUG][XTP:0]register service function ok(3114).
+[16:43:31.478.564][47130][DEBUG][XTP:0]register service function ok(3118).
+[16:43:31.479.655][47130][DEBUG][XTP:0]register service function ok(3142).
+[16:43:31.480.877][47130][DEBUG][XTP:0]register service function ok(3146).
+[16:43:31.482.169][47130][DEBUG][XTP:0]register service function ok(3108).
+[16:43:31.483.169][47130][DEBUG][XTP:0]register service function ok(3104).
+[16:43:31.484.315][47130][DEBUG][XTP:0]register service function ok(53).
+[16:43:31.485.510][47130][DEBUG][XTP:0]register service function ok(51).
+[16:43:31.486.555][47130][DEBUG][XTP:0]register service function ok(52).
+[16:43:31.487.368][47130][DEBUG][XTP:0]register service function ok(9).
+[16:43:31.488.166][47130][DEBUG][XTP:0]register service function ok(3132).
+[16:43:31.488.975][47130][DEBUG][XTP:0]register service function ok(3206).
+[16:43:31.489.721][47130][DEBUG][XTP:0]register service function ok(3128).
+[16:43:31.490.760][47130][DEBUG][XTP:0]register service function ok(3126).
+[16:43:31.491.554][47130][DEBUG][XTP:0]register service function ok(3136).
+[16:43:31.492.386][47130][DEBUG][XTP:0]register service function ok(3138).
+[16:43:31.493.546][47130][DEBUG][XTP:0]register service function ok(3148).
+[16:43:31.494.324][47130][DEBUG][XTP:0]register service function ok(3150).
+[16:43:31.495.105][47130][DEBUG][XTP:0]register service function ok(3153).
+[16:43:31.495.728][47130][INFO][XTP:0]End to register service function 1.
+[16:43:31.496.603][47130][TRACE][XTP:0]Begin to init trading day.
+[16:43:31.497.370][47130][TRACE][XTP:0]End to init trading day.
+[16:43:31.497.985][47130][DEBUG][XTP:0]Begin to init terminal info.
+[16:43:31.498.919][47130][DEBUG][XTP:0]End to init terminal info.
+[16:43:31.499.665][47130][TRACE][XTP:0]Begin to init error message.
+[16:43:31.500.445][47130][TRACE][XTP:0]End to init error message.
+[16:43:31.504.882][47130][DEBUG][XTP:0]Init order manager.
+[16:43:31.507.900][47130][DEBUG][XTP:0]order manager Initialize.
+[16:43:31.509.514][47130][TRACE][XTP:0]order timeout thread InitInstance.
+[16:43:31.543.512][47130][INFO][XTP:0]Init trader api success.
+[16:43:31.544.671][47130][TRACE][XTP:0]Begin to register spi.
+[16:43:31.545.484][47130][TRACE][XTP:0]Order manager register spi.
+[16:43:31.546.193][47130][TRACE][XTP:0]End to register spi.
+[16:43:31.546.855][47130][TRACE][XTP:0]Begin to login.
+[16:43:31.547.529][47130][INFO][XTP:0]Begin to login to oms server 120.27.164.69:6001.
+[16:43:31.688.546][47130][DEBUG][XTP:0]Connect from oms server.
+[16:43:31.690.427][47130][DEBUG][XTP:0]ip is 172.17.0.2.
+[16:43:31.691.627][47130][TRACE][XTP:0]Find account 53191002899 connect count.
+[16:43:31.692.928][47130][DEBUG][XTP:0]Can't find account 53191002899 connect count.
+[16:43:31.702.279][47130][TRACE][XTP:0]Begin to get max ref.
+[16:43:31.730.222][47130][TRACE][XTP:0]Receive login Begin.
+[16:43:31.732.020][47130][DEBUG][XTP:0]Receive login info from oms server.
+[16:43:31.733.810][47130][DEBUG][XTP:0]Begin to receive push sequence from oms.
+[16:43:31.735.654][47130][DEBUG][XTP:0]End to receive push sequence 0 from oms.
+[16:43:31.736.834][47130][INFO][XTP:0]The server version is 1.19.33.3-bugfi, start time is 20210214001621635, type is 3
+[16:43:31.738.166][47130][INFO][XTP:0]User reference is 0
+[16:43:31.739.557][47130][DEBUG][XTP:0]Can't find account 4615 connect count.
+[16:43:31.742.515][47130][INFO][XTP:0]Begin to set trading day 20210214.
+[16:43:31.744.789][47130][INFO][XTP:0]End set trading day 20210214
+[16:43:31.746.223][47130][DEBUG][XTP:0]4615 's xtp id base reference is 0.
+[16:43:31.751.496][47130][DEBUG][XTP:0]Update max push sequence 1.
+[16:43:31.754.435][47130][ERROR][XTP:10210000]53191002899 login to oms server 120.27.164.69:6001 failed.[xtp_trader_private_api.cpp:288][XTP:1]Login Failed,trade key invalid or not set,set assigned key first![OS:106]Transport endpoint is already connected[xbase_login.cpp:244]
+[16:43:31.789.620][47130][TRACE][XTP:0]Begin to register spi.
+[16:43:31.790.880][47130][TRACE][XTP:0]Order manager register spi.
+[16:43:31.792.454][47130][TRACE][XTP:0]End to register spi.
+[16:43:31.794.563][47130][TRACE][XTP:0]Begin to release trader api.
+[16:43:31.795.972][47130][TRACE][XTP:0]Close file.
+[16:43:31.796.827][47130][TRACE][XTP:0]Destroy order manager
+[16:43:31.799.125][47130][DEBUG][XTP:0]order manager Destroy.
+[16:43:32.514.589][47138][TRACE][XTP:0]Begin to check timeout.
+[16:43:32.515.957][47138][TRACE][XTP:0]End to check timeout.
+[16:43:32.518.462][47138][TRACE][XTP:0]order timeout thread ExitInstance.
+[16:43:32.519.876][47130][TRACE][XTP:0]xtp id manager destroy.
+[16:43:32.521.227][47130][TRACE][XTP:0]api service destroy.

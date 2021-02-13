@@ -10,8 +10,8 @@ log = logging.getLogger(__name__)
 
 class SMACross(bt.Strategy):
     params = dict(
-        sma_lower=10,  # period for lower SMA
-        sma_higher=50,  # period for higher SMA
+        sma_lower=5,  # period for lower SMA
+        sma_higher=30,  # period for higher SMA
     )
 
     def __init__(self):
@@ -35,7 +35,7 @@ class SMACross(bt.Strategy):
             log.info("sell created at {} - {}".format(date, close))
             self.close()
 
-def get_data(code, start_time='20100101', end_time='20210101'):
+def get_data(code, start_time='20100101', end_time='20210210'):
 
     ts.set_token('a339e517ed9b1cb97cda578c2ee8fa829ef50d13ae3623a113227777')
     pro = ts.pro_api()
@@ -43,7 +43,6 @@ def get_data(code, start_time='20100101', end_time='20210101'):
     df  = ts.pro_bar(ts_code=code, adj='qfq', start_date=start_time, end_date=end_time)
     df.index = pd.to_datetime(df.trade_date)
     df.sort_index(ascending=True, inplace=True)
-    # df = df.rename(columns={'vol', 'volume'})
     df['volume'] = df['vol']
     df['openinterest'] = 0
     df = df[['open', 'high', 'low', 'close', 'volume', 'openinterest']]
@@ -54,7 +53,7 @@ def get_data(code, start_time='20100101', end_time='20210101'):
 if __name__ == "__main__":
     cerebro = bt.Cerebro()
 
-    st_number = '300454.SZ'
+    st_number = '688158.SH'
     df = get_data(st_number)
 
     data = bt.feeds.PandasData(dataname=df)

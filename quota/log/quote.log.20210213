@@ -1,0 +1,346 @@
+[15:52:28.974.216][38937][INFO][XTP:0][init_log_file]:End: /workspaces/bt_test/quota/log/quote.log, api version : 1.1.18.13
+[15:52:28.978.476][38937][DEBUG][XTP:0]Begin to register quote service function.
+[15:52:28.979.390][38937][DEBUG][XTP:0]register service function ok(2250).
+[15:52:28.979.999][38937][DEBUG][XTP:0]register service function ok(2001).
+[15:52:28.980.958][38937][DEBUG][XTP:0]register service function ok(2002).
+[15:52:28.982.145][38937][DEBUG][XTP:0]register service function ok(2003).
+[15:52:28.983.502][38937][DEBUG][XTP:0]register service function ok(2200).
+[15:52:28.984.665][38937][DEBUG][XTP:0]register service function ok(2201).
+[15:52:28.986.075][38937][DEBUG][XTP:0]register service function ok(2202).
+[15:52:28.987.562][38937][DEBUG][XTP:0]register service function ok(2210).
+[15:52:28.988.665][38937][DEBUG][XTP:0]register service function ok(2211).
+[15:52:28.989.807][38937][DEBUG][XTP:0]register service function ok(2212).
+[15:52:28.991.048][38937][DEBUG][XTP:0]register service function ok(2011).
+[15:52:28.992.946][38937][DEBUG][XTP:0]register service function ok(51).
+[15:52:28.994.935][38937][DEBUG][XTP:0]register service function ok(53).
+[15:52:28.996.155][38937][DEBUG][XTP:0]register service function ok(9).
+[15:52:28.997.360][38937][DEBUG][XTP:0]register service function ok(2005).
+[15:52:28.998.624][38937][DEBUG][XTP:0]register service function ok(2006).
+[15:52:28.999.926][38937][DEBUG][XTP:0]register service function ok(2205).
+[15:52:29.001.240][38937][DEBUG][XTP:0]register service function ok(2206).
+[15:52:29.002.167][38937][DEBUG][XTP:0]register service function ok(2215).
+[15:52:29.003.206][38937][DEBUG][XTP:0]register service function ok(2216).
+[15:52:29.004.007][38937][DEBUG][XTP:0]register service function ok(2012).
+[15:52:29.004.765][38937][DEBUG][XTP:0]register service function ok(2018).
+[15:52:29.006.028][38937][DEBUG][XTP:0]register service function ok(2220).
+[15:52:29.007.118][38937][DEBUG][XTP:0]register service function ok(2222).
+[15:52:29.008.264][38937][DEBUG][XTP:0]register service function ok(2224).
+[15:52:29.009.650][38937][DEBUG][XTP:0]End to register quote service function 1.
+[15:52:29.261.826][38937][INFO][XTP:0]Begin to login to quote server 120.27.164.138:6002.
+[15:52:29.470.736][38937][TRACE][XTP:0]Receive login Begin.
+[15:52:29.473.148][38937][DEBUG][XTP:0]Receive login info from quote server.
+[15:52:29.474.544][38937][INFO][XTP:0]Receive trading day 20210213 from quote server success.
+[15:52:29.475.611][38937][INFO][XTP:0]Receive udp ip 230.1.1.2 from quote server success.
+[15:52:29.477.144][38937][INFO][XTP:0]Receive udp port 7722 from quote server success.
+[15:52:29.479.144][38937][INFO][XTP:0]Connect to quote server 120.27.164.138:6002 success.
+[15:52:29.479.306][38945][INFO][XTP:0]thread(api work) start...
+[15:52:29.493.757][38945][DEBUG][XTP:0]service(9) call time 11
+[15:52:29.519.022][38937][INFO][XTP:0]Begin to logout quote server.
+[15:52:29.520.447][38937][INFO][XTP:0]Clear subscribe data.
+[15:52:29.575.559][38937][INFO][XTP:0]Logout quote server success.
+[15:52:30.000.695][38945][DEBUG][XTP:0]session exception: [13] get_recv_frame function failed(connection might be closed by heart beat). [xbase_session_tcp.cpp:360].
+[15:52:30.002.663][38945][DEBUG][XTP:0]get_recv_frame function failed(connection might be closed by heart beat).[13]
+[15:52:30.003.727][38945][WARNING][XTP:1]call_service failed(9).[xbase_api.cpp:215][XTP:6]recv function timeouted.[xbase_os_socket.cpp:435]
+[15:52:30.005.074][38945][DEBUG][XTP:0]Disconnect from quote server.
+[15:52:30.006.628][38945][INFO][XTP:0]thread(api work) exit.
+[15:53:52.340.094][39186][INFO][XTP:0][init_log_file]:End: /workspaces/bt_test/quota/log/quote.log, api version : 1.1.18.13
+[15:53:52.342.586][39186][DEBUG][XTP:0]Begin to register quote service function.
+[15:53:52.343.772][39186][DEBUG][XTP:0]register service function ok(2250).
+[15:53:52.344.945][39186][DEBUG][XTP:0]register service function ok(2001).
+[15:53:52.345.995][39186][DEBUG][XTP:0]register service function ok(2002).
+[15:53:52.347.081][39186][DEBUG][XTP:0]register service function ok(2003).
+[15:53:52.347.976][39186][DEBUG][XTP:0]register service function ok(2200).
+[15:53:52.348.684][39186][DEBUG][XTP:0]register service function ok(2201).
+[15:53:52.350.378][39186][DEBUG][XTP:0]register service function ok(2202).
+[15:53:52.351.185][39186][DEBUG][XTP:0]register service function ok(2210).
+[15:53:52.351.907][39186][DEBUG][XTP:0]register service function ok(2211).
+[15:53:52.353.184][39186][DEBUG][XTP:0]register service function ok(2212).
+[15:53:52.354.724][39186][DEBUG][XTP:0]register service function ok(2011).
+[15:53:52.355.645][39186][DEBUG][XTP:0]register service function ok(51).
+[15:53:52.356.393][39186][DEBUG][XTP:0]register service function ok(53).
+[15:53:52.357.243][39186][DEBUG][XTP:0]register service function ok(9).
+[15:53:52.357.923][39186][DEBUG][XTP:0]register service function ok(2005).
+[15:53:52.359.081][39186][DEBUG][XTP:0]register service function ok(2006).
+[15:53:52.360.703][39186][DEBUG][XTP:0]register service function ok(2205).
+[15:53:52.361.563][39186][DEBUG][XTP:0]register service function ok(2206).
+[15:53:52.362.136][39186][DEBUG][XTP:0]register service function ok(2215).
+[15:53:52.363.029][39186][DEBUG][XTP:0]register service function ok(2216).
+[15:53:52.363.955][39186][DEBUG][XTP:0]register service function ok(2012).
+[15:53:52.365.062][39186][DEBUG][XTP:0]register service function ok(2018).
+[15:53:52.365.921][39186][DEBUG][XTP:0]register service function ok(2220).
+[15:53:52.366.616][39186][DEBUG][XTP:0]register service function ok(2222).
+[15:53:52.370.352][39186][DEBUG][XTP:0]register service function ok(2224).
+[15:53:52.372.616][39186][DEBUG][XTP:0]End to register quote service function 1.
+[15:53:52.493.129][39186][INFO][XTP:0]Begin to login to quote server 120.27.164.138:6002.
+[15:53:52.633.009][39186][TRACE][XTP:0]Receive login Begin.
+[15:53:52.634.195][39186][DEBUG][XTP:0]Receive login info from quote server.
+[15:53:52.635.377][39186][INFO][XTP:0]Receive trading day 20210213 from quote server success.
+[15:53:52.636.306][39186][INFO][XTP:0]Receive udp ip 230.1.1.2 from quote server success.
+[15:53:52.637.857][39186][INFO][XTP:0]Receive udp port 7722 from quote server success.
+[15:53:52.638.857][39186][INFO][XTP:0]Connect to quote server 120.27.164.138:6002 success.
+[15:53:52.638.934][39196][INFO][XTP:0]thread(api work) start...
+[15:53:52.653.475][39196][DEBUG][XTP:0]service(9) call time 8
+[15:53:52.674.347][39186][INFO][XTP:0]Begin to logout quote server.
+[15:53:52.675.594][39186][INFO][XTP:0]Clear subscribe data.
+[15:53:52.697.442][39186][INFO][XTP:0]Logout quote server success.
+[15:53:53.120.891][39196][DEBUG][XTP:0]session exception: [13] get_recv_frame function failed(connection might be closed by heart beat). [xbase_session_tcp.cpp:360].
+[15:53:53.121.893][39196][DEBUG][XTP:0]get_recv_frame function failed(connection might be closed by heart beat).[13]
+[15:53:53.123.598][39196][WARNING][XTP:1]call_service failed(9).[xbase_api.cpp:215][XTP:6]recv function timeouted.[xbase_os_socket.cpp:435]
+[15:53:53.125.146][39196][DEBUG][XTP:0]Disconnect from quote server.
+[15:53:53.126.219][39196][INFO][XTP:0]thread(api work) exit.
+[15:55:11.114.702][39431][INFO][XTP:0][init_log_file]:End: /workspaces/bt_test/quota/log/quote.log, api version : 1.1.18.13
+[15:55:11.117.589][39431][DEBUG][XTP:0]Begin to register quote service function.
+[15:55:11.118.452][39431][DEBUG][XTP:0]register service function ok(2250).
+[15:55:11.119.988][39431][DEBUG][XTP:0]register service function ok(2001).
+[15:55:11.120.869][39431][DEBUG][XTP:0]register service function ok(2002).
+[15:55:11.121.925][39431][DEBUG][XTP:0]register service function ok(2003).
+[15:55:11.123.019][39431][DEBUG][XTP:0]register service function ok(2200).
+[15:55:11.124.063][39431][DEBUG][XTP:0]register service function ok(2201).
+[15:55:11.125.051][39431][DEBUG][XTP:0]register service function ok(2202).
+[15:55:11.126.481][39431][DEBUG][XTP:0]register service function ok(2210).
+[15:55:11.127.489][39431][DEBUG][XTP:0]register service function ok(2211).
+[15:55:11.128.360][39431][DEBUG][XTP:0]register service function ok(2212).
+[15:55:11.129.317][39431][DEBUG][XTP:0]register service function ok(2011).
+[15:55:11.130.203][39431][DEBUG][XTP:0]register service function ok(51).
+[15:55:11.131.128][39431][DEBUG][XTP:0]register service function ok(53).
+[15:55:11.132.042][39431][DEBUG][XTP:0]register service function ok(9).
+[15:55:11.132.956][39431][DEBUG][XTP:0]register service function ok(2005).
+[15:55:11.133.946][39431][DEBUG][XTP:0]register service function ok(2006).
+[15:55:11.134.770][39431][DEBUG][XTP:0]register service function ok(2205).
+[15:55:11.137.022][39431][DEBUG][XTP:0]register service function ok(2206).
+[15:55:11.141.581][39431][DEBUG][XTP:0]register service function ok(2215).
+[15:55:11.142.387][39431][DEBUG][XTP:0]register service function ok(2216).
+[15:55:11.144.729][39431][DEBUG][XTP:0]register service function ok(2012).
+[15:55:11.149.822][39431][DEBUG][XTP:0]register service function ok(2018).
+[15:55:11.153.271][39431][DEBUG][XTP:0]register service function ok(2220).
+[15:55:11.154.000][39431][DEBUG][XTP:0]register service function ok(2222).
+[15:55:11.155.535][39431][DEBUG][XTP:0]register service function ok(2224).
+[15:55:11.156.439][39431][DEBUG][XTP:0]End to register quote service function 1.
+[15:55:11.290.088][39431][INFO][XTP:0]Begin to login to quote server 120.27.164.138:6002.
+[15:55:11.444.018][39431][TRACE][XTP:0]Receive login Begin.
+[15:55:11.445.242][39431][DEBUG][XTP:0]Receive login info from quote server.
+[15:55:11.446.682][39431][INFO][XTP:0]Receive trading day 20210213 from quote server success.
+[15:55:11.447.529][39431][INFO][XTP:0]Receive udp ip 230.1.1.2 from quote server success.
+[15:55:11.448.510][39431][INFO][XTP:0]Receive udp port 7722 from quote server success.
+[15:55:11.450.197][39431][INFO][XTP:0]Connect to quote server 120.27.164.138:6002 success.
+[15:55:11.450.371][39438][INFO][XTP:0]thread(api work) start...
+[15:55:11.470.708][39438][DEBUG][XTP:0]service(9) call time 7
+[15:55:11.503.852][39431][INFO][XTP:0]Begin to logout quote server.
+[15:55:11.505.311][39431][INFO][XTP:0]Clear subscribe data.
+[15:55:11.561.246][39431][INFO][XTP:0]Logout quote server success.
+[15:55:11.976.069][39438][DEBUG][XTP:0]session exception: [13] get_recv_frame function failed(connection might be closed by heart beat). [xbase_session_tcp.cpp:360].
+[15:55:11.978.445][39438][DEBUG][XTP:0]get_recv_frame function failed(connection might be closed by heart beat).[13]
+[15:55:11.980.149][39438][WARNING][XTP:1]call_service failed(9).[xbase_api.cpp:215][XTP:6]recv function timeouted.[xbase_os_socket.cpp:435]
+[15:55:11.981.495][39438][DEBUG][XTP:0]Disconnect from quote server.
+[15:55:11.982.764][39438][INFO][XTP:0]thread(api work) exit.
+[16:00:11.112.279][40237][INFO][XTP:0][init_log_file]:End: /workspaces/bt_test/quota/log/quote.log, api version : 1.1.18.13
+[16:00:11.115.265][40237][DEBUG][XTP:0]Begin to register quote service function.
+[16:00:11.116.444][40237][DEBUG][XTP:0]register service function ok(2250).
+[16:00:11.117.498][40237][DEBUG][XTP:0]register service function ok(2001).
+[16:00:11.112.682][40246][TRACE][XTP:0]api aux thread start ...
+[16:00:11.119.723][40237][DEBUG][XTP:0]register service function ok(2002).
+[16:00:11.121.828][40237][DEBUG][XTP:0]register service function ok(2003).
+[16:00:11.123.118][40237][DEBUG][XTP:0]register service function ok(2200).
+[16:00:11.124.049][40237][DEBUG][XTP:0]register service function ok(2201).
+[16:00:11.125.087][40237][DEBUG][XTP:0]register service function ok(2202).
+[16:00:11.126.049][40237][DEBUG][XTP:0]register service function ok(2210).
+[16:00:11.127.404][40237][DEBUG][XTP:0]register service function ok(2211).
+[16:00:11.128.261][40237][DEBUG][XTP:0]register service function ok(2212).
+[16:00:11.129.176][40237][DEBUG][XTP:0]register service function ok(2011).
+[16:00:11.130.154][40237][DEBUG][XTP:0]register service function ok(51).
+[16:00:11.130.807][40237][DEBUG][XTP:0]register service function ok(53).
+[16:00:11.132.106][40237][DEBUG][XTP:0]register service function ok(9).
+[16:00:11.133.117][40237][DEBUG][XTP:0]register service function ok(2005).
+[16:00:11.134.160][40237][DEBUG][XTP:0]register service function ok(2006).
+[16:00:11.134.972][40237][DEBUG][XTP:0]register service function ok(2205).
+[16:00:11.136.092][40237][DEBUG][XTP:0]register service function ok(2206).
+[16:00:11.137.374][40237][DEBUG][XTP:0]register service function ok(2215).
+[16:00:11.138.345][40237][DEBUG][XTP:0]register service function ok(2216).
+[16:00:11.139.380][40237][DEBUG][XTP:0]register service function ok(2012).
+[16:00:11.139.938][40237][DEBUG][XTP:0]register service function ok(2018).
+[16:00:11.140.846][40237][DEBUG][XTP:0]register service function ok(2220).
+[16:00:11.141.757][40237][DEBUG][XTP:0]register service function ok(2222).
+[16:00:11.142.837][40237][DEBUG][XTP:0]register service function ok(2224).
+[16:00:11.144.007][40237][DEBUG][XTP:0]End to register quote service function 1.
+[16:00:11.251.006][40237][INFO][XTP:0]Begin to login to quote server 120.27.164.138:6002.
+[16:00:11.265.479][40237][ERROR][XTP:10200000]53191002899 login to quote server 120.27.164.138:6002 failed.[xtp_quote_private_api.cpp:961][XTP:1]connect server failed.[xbase_login.cpp:31]
+[16:00:20.500.218][40289][INFO][XTP:0][init_log_file]:End: /workspaces/bt_test/quota/log/quote.log, api version : 1.1.18.13
+[16:00:20.501.886][40289][DEBUG][XTP:0]Begin to register quote service function.
+[16:00:20.503.074][40289][DEBUG][XTP:0]register service function ok(2250).
+[16:00:20.503.855][40289][DEBUG][XTP:0]register service function ok(2001).
+[16:00:20.505.039][40289][DEBUG][XTP:0]register service function ok(2002).
+[16:00:20.505.694][40289][DEBUG][XTP:0]register service function ok(2003).
+[16:00:20.506.369][40289][DEBUG][XTP:0]register service function ok(2200).
+[16:00:20.507.324][40289][DEBUG][XTP:0]register service function ok(2201).
+[16:00:20.508.278][40289][DEBUG][XTP:0]register service function ok(2202).
+[16:00:20.508.897][40289][DEBUG][XTP:0]register service function ok(2210).
+[16:00:20.510.684][40289][DEBUG][XTP:0]register service function ok(2211).
+[16:00:20.511.522][40289][DEBUG][XTP:0]register service function ok(2212).
+[16:00:20.512.555][40289][DEBUG][XTP:0]register service function ok(2011).
+[16:00:20.513.434][40289][DEBUG][XTP:0]register service function ok(51).
+[16:00:20.514.369][40289][DEBUG][XTP:0]register service function ok(53).
+[16:00:20.515.204][40289][DEBUG][XTP:0]register service function ok(9).
+[16:00:20.516.295][40289][DEBUG][XTP:0]register service function ok(2005).
+[16:00:20.517.025][40289][DEBUG][XTP:0]register service function ok(2006).
+[16:00:20.517.770][40289][DEBUG][XTP:0]register service function ok(2205).
+[16:00:20.518.451][40289][DEBUG][XTP:0]register service function ok(2206).
+[16:00:20.519.371][40289][DEBUG][XTP:0]register service function ok(2215).
+[16:00:20.520.058][40289][DEBUG][XTP:0]register service function ok(2216).
+[16:00:20.520.770][40289][DEBUG][XTP:0]register service function ok(2012).
+[16:00:20.523.117][40289][DEBUG][XTP:0]register service function ok(2018).
+[16:00:20.528.736][40289][DEBUG][XTP:0]register service function ok(2220).
+[16:00:20.530.831][40289][DEBUG][XTP:0]register service function ok(2222).
+[16:00:20.532.608][40289][DEBUG][XTP:0]register service function ok(2224).
+[16:00:20.533.562][40289][DEBUG][XTP:0]End to register quote service function 1.
+[16:00:20.645.193][40289][INFO][XTP:0]Begin to login to quote server 120.27.164.138:6002.
+[16:00:20.657.541][40289][ERROR][XTP:10200000]53191002899 login to quote server 120.27.164.138:6002 failed.[xtp_quote_private_api.cpp:961][XTP:1]connect server failed.[xbase_login.cpp:31]
+[16:00:37.244.814][40361][INFO][XTP:0][init_log_file]:End: /workspaces/bt_test/quota/log/quote.log, api version : 1.1.18.13
+[16:00:37.247.290][40361][DEBUG][XTP:0]Begin to register quote service function.
+[16:00:37.248.247][40361][DEBUG][XTP:0]register service function ok(2250).
+[16:00:37.249.219][40361][DEBUG][XTP:0]register service function ok(2001).
+[16:00:37.249.976][40361][DEBUG][XTP:0]register service function ok(2002).
+[16:00:37.251.016][40361][DEBUG][XTP:0]register service function ok(2003).
+[16:00:37.252.478][40361][DEBUG][XTP:0]register service function ok(2200).
+[16:00:37.253.539][40361][DEBUG][XTP:0]register service function ok(2201).
+[16:00:37.254.395][40361][DEBUG][XTP:0]register service function ok(2202).
+[16:00:37.255.462][40361][DEBUG][XTP:0]register service function ok(2210).
+[16:00:37.256.578][40361][DEBUG][XTP:0]register service function ok(2211).
+[16:00:37.257.679][40361][DEBUG][XTP:0]register service function ok(2212).
+[16:00:37.258.498][40361][DEBUG][XTP:0]register service function ok(2011).
+[16:00:37.259.492][40361][DEBUG][XTP:0]register service function ok(51).
+[16:00:37.260.230][40361][DEBUG][XTP:0]register service function ok(53).
+[16:00:37.261.292][40361][DEBUG][XTP:0]register service function ok(9).
+[16:00:37.262.161][40361][DEBUG][XTP:0]register service function ok(2005).
+[16:00:37.262.895][40361][DEBUG][XTP:0]register service function ok(2006).
+[16:00:37.264.467][40361][DEBUG][XTP:0]register service function ok(2205).
+[16:00:37.265.285][40361][DEBUG][XTP:0]register service function ok(2206).
+[16:00:37.266.049][40361][DEBUG][XTP:0]register service function ok(2215).
+[16:00:37.266.980][40361][DEBUG][XTP:0]register service function ok(2216).
+[16:00:37.267.920][40361][DEBUG][XTP:0]register service function ok(2012).
+[16:00:37.268.977][40361][DEBUG][XTP:0]register service function ok(2018).
+[16:00:37.269.984][40361][DEBUG][XTP:0]register service function ok(2220).
+[16:00:37.271.107][40361][DEBUG][XTP:0]register service function ok(2222).
+[16:00:37.272.207][40361][DEBUG][XTP:0]register service function ok(2224).
+[16:00:37.273.106][40361][DEBUG][XTP:0]End to register quote service function 1.
+[16:00:37.382.611][40361][INFO][XTP:0]Begin to login to quote server 120.27.164.138:6002.
+[16:00:37.395.810][40361][ERROR][XTP:10200000]53191002899 login to quote server 120.27.164.138:6002 failed.[xtp_quote_private_api.cpp:961][XTP:1]connect server failed.[xbase_login.cpp:31]
+[16:01:14.375.394][40483][INFO][XTP:0][init_log_file]:End: /workspaces/bt_test/quota/log/quote.log, api version : 1.1.18.13
+[16:01:14.377.936][40483][DEBUG][XTP:0]Begin to register quote service function.
+[16:01:14.379.659][40483][DEBUG][XTP:0]register service function ok(2250).
+[16:01:14.380.631][40483][DEBUG][XTP:0]register service function ok(2001).
+[16:01:14.381.415][40483][DEBUG][XTP:0]register service function ok(2002).
+[16:01:14.382.233][40483][DEBUG][XTP:0]register service function ok(2003).
+[16:01:14.382.992][40483][DEBUG][XTP:0]register service function ok(2200).
+[16:01:14.383.814][40483][DEBUG][XTP:0]register service function ok(2201).
+[16:01:14.384.371][40483][DEBUG][XTP:0]register service function ok(2202).
+[16:01:14.385.426][40483][DEBUG][XTP:0]register service function ok(2210).
+[16:01:14.386.533][40483][DEBUG][XTP:0]register service function ok(2211).
+[16:01:14.387.615][40483][DEBUG][XTP:0]register service function ok(2212).
+[16:01:14.388.360][40483][DEBUG][XTP:0]register service function ok(2011).
+[16:01:14.389.088][40483][DEBUG][XTP:0]register service function ok(51).
+[16:01:14.389.772][40483][DEBUG][XTP:0]register service function ok(53).
+[16:01:14.390.474][40483][DEBUG][XTP:0]register service function ok(9).
+[16:01:14.391.215][40483][DEBUG][XTP:0]register service function ok(2005).
+[16:01:14.391.756][40483][DEBUG][XTP:0]register service function ok(2006).
+[16:01:14.392.565][40483][DEBUG][XTP:0]register service function ok(2205).
+[16:01:14.393.432][40483][DEBUG][XTP:0]register service function ok(2206).
+[16:01:14.394.234][40483][DEBUG][XTP:0]register service function ok(2215).
+[16:01:14.394.870][40483][DEBUG][XTP:0]register service function ok(2216).
+[16:01:14.395.451][40483][DEBUG][XTP:0]register service function ok(2012).
+[16:01:14.396.244][40483][DEBUG][XTP:0]register service function ok(2018).
+[16:01:14.396.927][40483][DEBUG][XTP:0]register service function ok(2220).
+[16:01:14.397.882][40483][DEBUG][XTP:0]register service function ok(2222).
+[16:01:14.398.567][40483][DEBUG][XTP:0]register service function ok(2224).
+[16:01:14.399.447][40483][DEBUG][XTP:0]End to register quote service function 1.
+[16:01:14.505.499][40483][INFO][XTP:0]Begin to login to quote server 120.27.164.138:6002.
+[16:01:14.519.468][40483][ERROR][XTP:10200000]53191002899 login to quote server 120.27.164.138:6002 failed.[xtp_quote_private_api.cpp:961][XTP:1]connect server failed.[xbase_login.cpp:31]
+[16:02:28.666.869][40708][INFO][XTP:0][init_log_file]:End: /workspaces/bt_test/quota/log/quote.log, api version : 1.1.18.13
+[16:02:28.669.980][40708][DEBUG][XTP:0]Begin to register quote service function.
+[16:02:28.671.109][40708][DEBUG][XTP:0]register service function ok(2250).
+[16:02:28.672.709][40708][DEBUG][XTP:0]register service function ok(2001).
+[16:02:28.673.942][40708][DEBUG][XTP:0]register service function ok(2002).
+[16:02:28.675.452][40708][DEBUG][XTP:0]register service function ok(2003).
+[16:02:28.677.108][40708][DEBUG][XTP:0]register service function ok(2200).
+[16:02:28.678.450][40708][DEBUG][XTP:0]register service function ok(2201).
+[16:02:28.680.012][40708][DEBUG][XTP:0]register service function ok(2202).
+[16:02:28.684.029][40708][DEBUG][XTP:0]register service function ok(2210).
+[16:02:28.687.258][40708][DEBUG][XTP:0]register service function ok(2211).
+[16:02:28.705.689][40708][DEBUG][XTP:0]register service function ok(2212).
+[16:02:28.706.953][40708][DEBUG][XTP:0]register service function ok(2011).
+[16:02:28.708.307][40708][DEBUG][XTP:0]register service function ok(51).
+[16:02:28.709.762][40708][DEBUG][XTP:0]register service function ok(53).
+[16:02:28.711.318][40708][DEBUG][XTP:0]register service function ok(9).
+[16:02:28.712.716][40708][DEBUG][XTP:0]register service function ok(2005).
+[16:02:28.714.230][40708][DEBUG][XTP:0]register service function ok(2006).
+[16:02:28.715.272][40708][DEBUG][XTP:0]register service function ok(2205).
+[16:02:28.716.346][40708][DEBUG][XTP:0]register service function ok(2206).
+[16:02:28.717.582][40708][DEBUG][XTP:0]register service function ok(2215).
+[16:02:28.720.636][40708][DEBUG][XTP:0]register service function ok(2216).
+[16:02:28.723.696][40708][DEBUG][XTP:0]register service function ok(2012).
+[16:02:28.724.904][40708][DEBUG][XTP:0]register service function ok(2018).
+[16:02:28.733.617][40708][DEBUG][XTP:0]register service function ok(2220).
+[16:02:28.735.340][40708][DEBUG][XTP:0]register service function ok(2222).
+[16:02:28.739.124][40708][DEBUG][XTP:0]register service function ok(2224).
+[16:02:28.740.752][40708][DEBUG][XTP:0]End to register quote service function 1.
+[16:02:28.861.920][40708][INFO][XTP:0]Begin to login to quote server 120.27.164.138:6002.
+[16:02:28.877.040][40708][ERROR][XTP:10200000]53191002899 login to quote server 120.27.164.138:6002 failed.[xtp_quote_private_api.cpp:961][XTP:1]connect server failed.[xbase_login.cpp:31]
+[16:02:39.843.147][40769][INFO][XTP:0][init_log_file]:End: /workspaces/bt_test/quota/log/quote.log, api version : 1.1.18.13
+[16:02:39.845.755][40769][DEBUG][XTP:0]Begin to register quote service function.
+[16:02:39.846.829][40769][DEBUG][XTP:0]register service function ok(2250).
+[16:02:39.848.093][40769][DEBUG][XTP:0]register service function ok(2001).
+[16:02:39.850.431][40769][DEBUG][XTP:0]register service function ok(2002).
+[16:02:39.851.744][40769][DEBUG][XTP:0]register service function ok(2003).
+[16:02:39.852.687][40769][DEBUG][XTP:0]register service function ok(2200).
+[16:02:39.853.979][40769][DEBUG][XTP:0]register service function ok(2201).
+[16:02:39.854.914][40769][DEBUG][XTP:0]register service function ok(2202).
+[16:02:39.856.317][40769][DEBUG][XTP:0]register service function ok(2210).
+[16:02:39.857.650][40769][DEBUG][XTP:0]register service function ok(2211).
+[16:02:39.858.648][40769][DEBUG][XTP:0]register service function ok(2212).
+[16:02:39.859.676][40769][DEBUG][XTP:0]register service function ok(2011).
+[16:02:39.860.666][40769][DEBUG][XTP:0]register service function ok(51).
+[16:02:39.862.111][40769][DEBUG][XTP:0]register service function ok(53).
+[16:02:39.863.481][40769][DEBUG][XTP:0]register service function ok(9).
+[16:02:39.865.278][40769][DEBUG][XTP:0]register service function ok(2005).
+[16:02:39.868.039][40769][DEBUG][XTP:0]register service function ok(2006).
+[16:02:39.870.856][40769][DEBUG][XTP:0]register service function ok(2205).
+[16:02:39.872.609][40769][DEBUG][XTP:0]register service function ok(2206).
+[16:02:39.873.837][40769][DEBUG][XTP:0]register service function ok(2215).
+[16:02:39.875.381][40769][DEBUG][XTP:0]register service function ok(2216).
+[16:02:39.876.893][40769][DEBUG][XTP:0]register service function ok(2012).
+[16:02:39.878.288][40769][DEBUG][XTP:0]register service function ok(2018).
+[16:02:39.879.668][40769][DEBUG][XTP:0]register service function ok(2220).
+[16:02:39.880.866][40769][DEBUG][XTP:0]register service function ok(2222).
+[16:02:39.881.753][40769][DEBUG][XTP:0]register service function ok(2224).
+[16:02:39.882.648][40769][DEBUG][XTP:0]End to register quote service function 1.
+[16:02:39.992.205][40769][INFO][XTP:0]Begin to login to quote server 120.27.164.138:6002.
+[16:02:40.006.600][40769][ERROR][XTP:10200000]53191002899 login to quote server 120.27.164.138:6002 failed.[xtp_quote_private_api.cpp:961][XTP:1]connect server failed.[xbase_login.cpp:31]
+[16:03:05.062.392][40866][INFO][XTP:0][init_log_file]:End: /workspaces/bt_test/quota/log/quote.log, api version : 1.1.18.13
+[16:03:05.064.312][40866][DEBUG][XTP:0]Begin to register quote service function.
+[16:03:05.065.113][40866][DEBUG][XTP:0]register service function ok(2250).
+[16:03:05.066.026][40866][DEBUG][XTP:0]register service function ok(2001).
+[16:03:05.067.019][40866][DEBUG][XTP:0]register service function ok(2002).
+[16:03:05.067.953][40866][DEBUG][XTP:0]register service function ok(2003).
+[16:03:05.069.046][40866][DEBUG][XTP:0]register service function ok(2200).
+[16:03:05.070.442][40866][DEBUG][XTP:0]register service function ok(2201).
+[16:03:05.071.733][40866][DEBUG][XTP:0]register service function ok(2202).
+[16:03:05.072.962][40866][DEBUG][XTP:0]register service function ok(2210).
+[16:03:05.074.538][40866][DEBUG][XTP:0]register service function ok(2211).
+[16:03:05.078.319][40866][DEBUG][XTP:0]register service function ok(2212).
+[16:03:05.079.282][40866][DEBUG][XTP:0]register service function ok(2011).
+[16:03:05.083.969][40866][DEBUG][XTP:0]register service function ok(51).
+[16:03:05.087.732][40866][DEBUG][XTP:0]register service function ok(53).
+[16:03:05.089.516][40866][DEBUG][XTP:0]register service function ok(9).
+[16:03:05.094.805][40866][DEBUG][XTP:0]register service function ok(2005).
+[16:03:05.102.277][40866][DEBUG][XTP:0]register service function ok(2006).
+[16:03:05.106.053][40866][DEBUG][XTP:0]register service function ok(2205).
+[16:03:05.107.463][40866][DEBUG][XTP:0]register service function ok(2206).
+[16:03:05.109.507][40866][DEBUG][XTP:0]register service function ok(2215).
+[16:03:05.110.479][40866][DEBUG][XTP:0]register service function ok(2216).
+[16:03:05.111.477][40866][DEBUG][XTP:0]register service function ok(2012).
+[16:03:05.113.398][40866][DEBUG][XTP:0]register service function ok(2018).
+[16:03:05.114.772][40866][DEBUG][XTP:0]register service function ok(2220).
+[16:03:05.115.734][40866][DEBUG][XTP:0]register service function ok(2222).
+[16:03:05.117.752][40866][DEBUG][XTP:0]register service function ok(2224).
+[16:03:05.119.010][40866][DEBUG][XTP:0]End to register quote service function 1.
+[16:03:05.235.285][40866][INFO][XTP:0]Begin to login to quote server 120.27.164.138:6002.
+[16:03:05.253.745][40866][ERROR][XTP:10200000]53191002899 login to quote server 120.27.164.138:6002 failed.[xtp_quote_private_api.cpp:961][XTP:1]connect server failed.[xbase_login.cpp:31]
