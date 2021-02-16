@@ -1,4 +1,4 @@
-import backtrader.indicators as btind
+from backtrader import indicators as btind
 import backtrader as bt
 class MyStrategy(bt.Strategy):
     params = dict(period1=20, period2=25, period3=10, period4=100)

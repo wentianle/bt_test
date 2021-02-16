@@ -1,8 +1,8 @@
 import backtrader as bt
-import xtpwrapper as xtp 
+from xtpwrapper import * 
 
 
-class LiveTrader(xtp.TraderApi):
+class LiveTrader(TraderApi):
 
     def __init__(self):
         super().__init__()
@@ -265,15 +265,17 @@ if __name__ == '__main__':
     session_id = 0
     request_id = 1 
     test = LiveTrader() 
+
+    test.SetHeartBeatInterval(10)
+    test.SetSoftwareVersion("test-api")
     
     session_id = test.Login('120.27.164.69', 6001, '53191002899', '778MhWYa')
-    print (session_id, test.GetApiLastError())
-    if session_id != 0: 
+    if session_id != None and session_id != 0: 
         test.Logout(int(session_id))
         test.Release()
-        print("test---", ret)
+        print("test---", session_id)
     else:
-        print(test.GetApiLastError())
+        print(session_id, test.GetApiLastError())
 
     # if ret == 0:
 

@@ -153,6 +153,8 @@ class LiveFeed(xtp.QuoteAPI):
         pass
 
     def OnSubscribeAllMarketData(self, exchange_id, error_info):
+
+        print(exchange_id, error_info)
         """
         订阅全市场的股票行情应答
 
@@ -321,11 +323,18 @@ if __name__ == '__main__':
 
     session_id = 0
     request_id = 1 
-    test = xtp.QuoteAPI()
-    
+    test = LiveFeed()
+    test.CreateQuote(1, 'quota', xtp.xtp_enum.XTP_LOG_LEVEL.XTP_LOG_LEVEL_TRACE)
+    test.SetHeartBeatInterval(10)
     ret = test.Login('120.27.164.138', 6002, '53191002899', '778MhWYa')
+
     print (ret, test.GetApiLastError())
+
     if ret == 0: 
+
+        test.SubscribeAllMarketData(xtp.xtp_enum.XTP_EXCHANGE_TYPE.XTP_EXCHANGE_UNKNOWN)
+
+
         test.Logout()
         test.Release()
         print("test---", ret)

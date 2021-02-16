@@ -1,0 +1,90 @@
+[18:21:45.181.846][-1][INFO][XTP:0][init_log_file]:End: quota/log/quote.log, api version : 1.1.18.13
+[18:21:45.181.975][-1][DEBUG][XTP:0]Begin to register quote service function.
+[18:21:45.181.990][-1][DEBUG][XTP:0]register service function ok(2250).
+[18:21:45.181.999][-1][DEBUG][XTP:0]register service function ok(2001).
+[18:21:45.182.006][-1][DEBUG][XTP:0]register service function ok(2002).
+[18:21:45.182.014][-1][DEBUG][XTP:0]register service function ok(2003).
+[18:21:45.182.021][-1][DEBUG][XTP:0]register service function ok(2200).
+[18:21:45.182.028][-1][DEBUG][XTP:0]register service function ok(2201).
+[18:21:45.182.035][-1][DEBUG][XTP:0]register service function ok(2202).
+[18:21:45.182.042][-1][DEBUG][XTP:0]register service function ok(2210).
+[18:21:45.182.049][-1][DEBUG][XTP:0]register service function ok(2211).
+[18:21:45.182.056][-1][DEBUG][XTP:0]register service function ok(2212).
+[18:21:45.182.063][-1][DEBUG][XTP:0]register service function ok(2011).
+[18:21:45.182.070][-1][DEBUG][XTP:0]register service function ok(51).
+[18:21:45.182.077][-1][DEBUG][XTP:0]register service function ok(53).
+[18:21:45.182.084][-1][DEBUG][XTP:0]register service function ok(9).
+[18:21:45.182.091][-1][DEBUG][XTP:0]register service function ok(2005).
+[18:21:45.182.098][-1][DEBUG][XTP:0]register service function ok(2006).
+[18:21:45.182.105][-1][DEBUG][XTP:0]register service function ok(2205).
+[18:21:45.182.112][-1][DEBUG][XTP:0]register service function ok(2206).
+[18:21:45.182.119][-1][DEBUG][XTP:0]register service function ok(2215).
+[18:21:45.182.126][-1][DEBUG][XTP:0]register service function ok(2216).
+[18:21:45.182.144][-1][DEBUG][XTP:0]register service function ok(2012).
+[18:21:45.182.151][-1][DEBUG][XTP:0]register service function ok(2018).
+[18:21:45.182.158][-1][DEBUG][XTP:0]register service function ok(2220).
+[18:21:45.182.166][-1][DEBUG][XTP:0]register service function ok(2222).
+[18:21:45.182.173][-1][DEBUG][XTP:0]register service function ok(2224).
+[18:21:45.182.180][-1][DEBUG][XTP:0]End to register quote service function 1.
+[18:21:45.352.355][-1][INFO][XTP:0]Begin to login to quote server 120.27.164.138:6002.
+[18:21:45.399.648][-1][TRACE][XTP:0]Receive login Begin.
+[18:21:45.399.719][-1][DEBUG][XTP:0]Receive login info from quote server.
+[18:21:45.399.738][-1][INFO][XTP:0]Receive trading day 20210216 from quote server success.
+[18:21:45.399.754][-1][INFO][XTP:0]Receive udp ip 230.1.1.2 from quote server success.
+[18:21:45.399.768][-1][INFO][XTP:0]Receive udp port 7722 from quote server success.
+[18:21:45.399.880][-1][INFO][XTP:0]Connect to quote server 120.27.164.138:6002 success.
+[18:21:45.399.927][-1][INFO][XTP:0]thread(api work) start...
+[18:21:45.400.114][-1][INFO][XTP:0]Begin to logout quote server.
+[18:21:45.400.228][-1][INFO][XTP:0]Clear subscribe data.
+[18:21:45.400.316][-1][DEBUG][XTP:0]session exception: [13] get_recv_frame function failed(SOCKET ERROR). [xbase_session_tcp.cpp:381].
+[18:21:45.400.349][-1][DEBUG][XTP:0]get_recv_frame function failed(SOCKET ERROR).[13]
+[18:21:45.400.367][-1][INFO][XTP:0]call_service failed.
+[18:21:45.400.381][-1][DEBUG][XTP:0]Disconnect from quote server.
+[18:21:45.400.395][-1][INFO][XTP:0]thread(api work) exit.
+[18:21:45.463.190][-1][INFO][XTP:0]Logout quote server success.
+[18:25:24.972.702][-1][INFO][XTP:0][init_log_file]:End: quota/log/quote.log, api version : 1.1.18.13
+[18:25:24.972.756][-1][DEBUG][XTP:0]Begin to register quote service function.
+[18:25:24.972.769][-1][DEBUG][XTP:0]register service function ok(2250).
+[18:25:24.972.778][-1][DEBUG][XTP:0]register service function ok(2001).
+[18:25:24.972.785][-1][DEBUG][XTP:0]register service function ok(2002).
+[18:25:24.972.793][-1][DEBUG][XTP:0]register service function ok(2003).
+[18:25:24.972.800][-1][DEBUG][XTP:0]register service function ok(2200).
+[18:25:24.972.807][-1][DEBUG][XTP:0]register service function ok(2201).
+[18:25:24.972.815][-1][DEBUG][XTP:0]register service function ok(2202).
+[18:25:24.972.822][-1][DEBUG][XTP:0]register service function ok(2210).
+[18:25:24.972.829][-1][DEBUG][XTP:0]register service function ok(2211).
+[18:25:24.972.836][-1][DEBUG][XTP:0]register service function ok(2212).
+[18:25:24.972.867][-1][DEBUG][XTP:0]register service function ok(2011).
+[18:25:24.972.873][-1][DEBUG][XTP:0]register service function ok(51).
+[18:25:24.972.878][-1][DEBUG][XTP:0]register service function ok(53).
+[18:25:24.972.892][-1][DEBUG][XTP:0]register service function ok(9).
+[18:25:24.972.897][-1][DEBUG][XTP:0]register service function ok(2005).
+[18:25:24.972.902][-1][DEBUG][XTP:0]register service function ok(2006).
+[18:25:24.972.907][-1][DEBUG][XTP:0]register service function ok(2205).
+[18:25:24.972.912][-1][DEBUG][XTP:0]register service function ok(2206).
+[18:25:24.972.916][-1][DEBUG][XTP:0]register service function ok(2215).
+[18:25:24.972.921][-1][DEBUG][XTP:0]register service function ok(2216).
+[18:25:24.972.926][-1][DEBUG][XTP:0]register service function ok(2012).
+[18:25:24.972.931][-1][DEBUG][XTP:0]register service function ok(2018).
+[18:25:24.972.935][-1][DEBUG][XTP:0]register service function ok(2220).
+[18:25:24.972.940][-1][DEBUG][XTP:0]register service function ok(2222).
+[18:25:24.972.945][-1][DEBUG][XTP:0]register service function ok(2224).
+[18:25:24.972.950][-1][DEBUG][XTP:0]End to register quote service function 1.
+[18:25:25.122.471][-1][INFO][XTP:0]Begin to login to quote server 120.27.164.138:6002.
+[18:25:25.161.163][-1][TRACE][XTP:0]Receive login Begin.
+[18:25:25.161.226][-1][DEBUG][XTP:0]Receive login info from quote server.
+[18:25:25.161.238][-1][INFO][XTP:0]Receive trading day 20210216 from quote server success.
+[18:25:25.161.249][-1][INFO][XTP:0]Receive udp ip 230.1.1.2 from quote server success.
+[18:25:25.161.260][-1][INFO][XTP:0]Receive udp port 7722 from quote server success.
+[18:25:25.161.367][-1][INFO][XTP:0]Connect to quote server 120.27.164.138:6002 success.
+[18:25:25.161.415][-1][INFO][XTP:0]thread(api work) start...
+[18:25:25.161.583][-1][INFO][XTP:0]Begin to subscribe market data with tcp.
+[18:25:25.161.628][-1][INFO][XTP:0]End to subscribe market data with tcp.
+[18:25:25.161.653][-1][INFO][XTP:0]Begin to logout quote server.
+[18:25:25.161.746][-1][INFO][XTP:0]Clear subscribe data.
+[18:25:25.161.764][-1][DEBUG][XTP:0]session exception: [13] get_recv_frame function failed(SOCKET ERROR). [xbase_session_tcp.cpp:381].
+[18:25:25.161.828][-1][DEBUG][XTP:0]get_recv_frame function failed(SOCKET ERROR).[13]
+[18:25:25.161.843][-1][INFO][XTP:0]call_service failed.
+[18:25:25.161.854][-1][DEBUG][XTP:0]Disconnect from quote server.
+[18:25:25.161.864][-1][INFO][XTP:0]thread(api work) exit.
+[18:25:25.226.652][-1][INFO][XTP:0]Logout quote server success.
